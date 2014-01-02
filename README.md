@@ -17,4 +17,4 @@ The game components and game state variables are in the main activity class beca
 
 The AI was pretty simple and implemented through an abstract superclass class with different difficulties as subclasses since that setting was the only feature of the game likely to change.
 
-Easy AI simply moves to an avaliable space while "Hard" AI looks for 2 in a row's to either win or block the player.
+Easy AI logic simply marks any avaliable space while "Hard" AI logic looks for 2 X's or O's in a row to either win or prevent the player from winning. Hard AI play() method is lengthy but it works by looking for all 2 rows, columns, and diagonals with 2 X's or O's and a blank space. It then looks through those possibilities and combinations and it runs in O(N) time. I may come back to clean up the code.
