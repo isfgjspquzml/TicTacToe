@@ -53,7 +53,6 @@ public class HardComputerPlayer extends ComputerPlayer {
 
 		int[] columns = { firstColumn, secondColumn, thirdColumn };
 		int[] rows = { firstRow, secondRow, thirdRow };
-		int[] diagonals = { bottomLeftToTopRightDiag, topLeftToBottomRightDiag };
 
 		// Objective 1: Look for 2 in a row and go for 3 in a row
 		for (int i = 0; i < columns.length; i++) {
