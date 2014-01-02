@@ -5,9 +5,9 @@ Basic TicTacToe game on Android for learning purposes
 
 Features include:
 
-1 player
-2 players with an easy and more difficult setting
-Ability to switch between 1 player and 2 players while playing
+- 1 player
+- 2 players with an easy and more difficult setting
+- Ability to switch between 1 player and 2 players while playing
 
 -------------------------------------------------
 
